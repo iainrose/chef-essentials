@@ -27,3 +27,7 @@ end
 describe file('/var/www/html/index.html') do
   its('content') { should match(/Hello, world!/) }
 end
+
+describe command('curl localhost') do
+   its('stdout') { should match ('<h1>Hello, world!</h1>') }
+end
