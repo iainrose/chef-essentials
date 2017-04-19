@@ -1,24 +1,34 @@
-I, [2017-04-19T21:32:18.973355 #15019]  INFO -- default-centos-69: -----> Converging <default-centos-69>...
-I, [2017-04-19T21:32:18.974803 #15019]  INFO -- default-centos-69: Preparing files for transfer
-I, [2017-04-19T21:32:18.975014 #15019]  INFO -- default-centos-69: Preparing dna.json
-I, [2017-04-19T21:32:18.975687 #15019]  INFO -- default-centos-69: Resolving cookbook dependencies with Berkshelf 4.3.5...
-I, [2017-04-19T21:32:19.147176 #15019]  INFO -- default-centos-69: Removing non-cookbook files before transfer
-I, [2017-04-19T21:32:19.151857 #15019]  INFO -- default-centos-69: Preparing validation.pem
-I, [2017-04-19T21:32:19.153928 #15019]  INFO -- default-centos-69: Preparing client.rb
-I, [2017-04-19T21:32:19.365779 #15019]  INFO -- default-centos-69: -----> Chef Omnibus installation detected (install only if missing)
-I, [2017-04-19T21:32:19.433921 #15019]  INFO -- default-centos-69: Transferring files to <default-centos-69>
-I, [2017-04-19T21:32:22.403910 #15019]  INFO -- default-centos-69: Starting Chef Client, version 13.0.118
-I, [2017-04-19T21:32:24.828873 #15019]  INFO -- default-centos-69: resolving cookbooks for run list: ["workstation::default"]
-I, [2017-04-19T21:32:24.879573 #15019]  INFO -- default-centos-69: Synchronizing Cookbooks:
-I, [2017-04-19T21:32:24.883523 #15019]  INFO -- default-centos-69:   - workstation (0.1.0)
-I, [2017-04-19T21:32:24.884600 #15019]  INFO -- default-centos-69: Installing Cookbook Gems:
-I, [2017-04-19T21:32:24.890519 #15019]  INFO -- default-centos-69: Compiling Cookbooks...
-I, [2017-04-19T21:32:24.901543 #15019]  INFO -- default-centos-69: Converging 2 resources
-I, [2017-04-19T21:32:24.901632 #15019]  INFO -- default-centos-69: Recipe: workstation::setup
-I, [2017-04-19T21:32:26.546958 #15019]  INFO -- default-centos-69:   * yum_package[tree] action install (up to date)
-I, [2017-04-19T21:32:26.554527 #15019]  INFO -- default-centos-69:   * file[/etc/motd] action create (up to date)
-I, [2017-04-19T21:32:26.652983 #15019]  INFO -- default-centos-69: 
-I, [2017-04-19T21:32:26.653155 #15019]  INFO -- default-centos-69: Running handlers:
-I, [2017-04-19T21:32:26.653220 #15019]  INFO -- default-centos-69: Running handlers complete
-I, [2017-04-19T21:32:26.655512 #15019]  INFO -- default-centos-69: Chef Client finished, 0/2 resources updated in 04 seconds
-I, [2017-04-19T21:32:26.734384 #15019]  INFO -- default-centos-69: Finished converging <default-centos-69> (0m7.76s).
+I, [2017-04-19T23:23:41.219242 #18908]  INFO -- default-centos-69: -----> Converging <default-centos-69>...
+I, [2017-04-19T23:23:41.220708 #18908]  INFO -- default-centos-69: Preparing files for transfer
+I, [2017-04-19T23:23:41.220960 #18908]  INFO -- default-centos-69: Preparing dna.json
+I, [2017-04-19T23:23:41.221686 #18908]  INFO -- default-centos-69: Resolving cookbook dependencies with Berkshelf 4.3.5...
+I, [2017-04-19T23:23:41.356268 #18908]  INFO -- default-centos-69: Removing non-cookbook files before transfer
+I, [2017-04-19T23:23:41.360910 #18908]  INFO -- default-centos-69: Preparing validation.pem
+I, [2017-04-19T23:23:41.361580 #18908]  INFO -- default-centos-69: Preparing client.rb
+I, [2017-04-19T23:23:41.500934 #18908]  INFO -- default-centos-69: -----> Chef Omnibus installation detected (install only if missing)
+I, [2017-04-19T23:23:41.564399 #18908]  INFO -- default-centos-69: Transferring files to <default-centos-69>
+I, [2017-04-19T23:23:44.019919 #18908]  INFO -- default-centos-69: Starting Chef Client, version 13.0.118
+I, [2017-04-19T23:23:46.370942 #18908]  INFO -- default-centos-69: resolving cookbooks for run list: ["workstation::default"]
+I, [2017-04-19T23:23:46.418597 #18908]  INFO -- default-centos-69: Synchronizing Cookbooks:
+I, [2017-04-19T23:23:46.427551 #18908]  INFO -- default-centos-69:   - workstation (0.1.0)
+I, [2017-04-19T23:23:46.428593 #18908]  INFO -- default-centos-69: Installing Cookbook Gems:
+I, [2017-04-19T23:23:46.434541 #18908]  INFO -- default-centos-69: Compiling Cookbooks...
+I, [2017-04-19T23:23:46.446571 #18908]  INFO -- default-centos-69: Converging 2 resources
+I, [2017-04-19T23:23:46.446658 #18908]  INFO -- default-centos-69: Recipe: workstation::setup
+I, [2017-04-19T23:23:48.445972 #18908]  INFO -- default-centos-69:   * yum_package[tree] action install (up to date)
+I, [2017-04-19T23:23:48.457556 #18908]  INFO -- default-centos-69:   * file[/etc/motd] action create
+I, [2017-04-19T23:23:48.457639 #18908]  INFO -- default-centos-69:     - update content in file /etc/motd from 2ea32b to 288ae8
+I, [2017-04-19T23:23:48.457702 #18908]  INFO -- default-centos-69:     --- /etc/motd	2017-04-19 21:28:18.718062324 +0000
+I, [2017-04-19T23:23:48.457760 #18908]  INFO -- default-centos-69:     +++ /etc/.chef-motd20170419-1402-1lx9ag5	2017-04-19 23:23:48.452062323 +0000
+I, [2017-04-19T23:23:48.457847 #18908]  INFO -- default-centos-69:     @@ -1,2 +1,7 @@
+I, [2017-04-19T23:23:48.457907 #18908]  INFO -- default-centos-69:      Property of Iain Rose
+I, [2017-04-19T23:23:48.457962 #18908]  INFO -- default-centos-69:     +
+I, [2017-04-19T23:23:48.458046 #18908]  INFO -- default-centos-69:     +  IPADDRESS: 172.17.0.15
+I, [2017-04-19T23:23:48.458127 #18908]  INFO -- default-centos-69:     +  HOSTNAME: 93f694291833
+I, [2017-04-19T23:23:48.458184 #18908]  INFO -- default-centos-69:     +  MEMORY: 604192kB
+I, [2017-04-19T23:23:48.515713 #18908]  INFO -- default-centos-69:     +  CPU: 1795.672
+I, [2017-04-19T23:23:48.643910 #18908]  INFO -- default-centos-69: 
+I, [2017-04-19T23:23:48.644051 #18908]  INFO -- default-centos-69: Running handlers:
+I, [2017-04-19T23:23:48.644138 #18908]  INFO -- default-centos-69: Running handlers complete
+I, [2017-04-19T23:23:48.644202 #18908]  INFO -- default-centos-69: Chef Client finished, 1/2 resources updated in 04 seconds
+I, [2017-04-19T23:23:48.724827 #18908]  INFO -- default-centos-69: Finished converging <default-centos-69> (0m7.50s).
