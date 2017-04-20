@@ -8,11 +8,8 @@
 
 package 'httpd'
 
-file '/var/www/html/index.html' do
-  content "<h1>Hello, world!</h1>
-    IPADDRESS: #{node['ipaddress']}
-    HOSTNAME: #{node['hostname']}
-"
+template '/var/www/html/index.html' do
+  source 'index.html.erb'
 end
 
 service 'httpd' do
