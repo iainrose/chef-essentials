@@ -4,4 +4,4 @@ DEPENDENCIES
     metadata: true
 
 GRAPH
-  workstation (0.1.0)
+  workstation (0.2.0)
